@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
 }
 
 
@@ -13,3 +14,26 @@
   color: white;
 }
 
+input{
+  width: 60%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size:20px;
+  padding:10px;
+  text-align: center;
+}
+.btns{
+  width:200px;;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top:20px;
+}
+
+button{
+  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
